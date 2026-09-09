@@ -1,7 +1,13 @@
 # OctoAcme Project Management Process Documentation
 
 ## Overview
-This folder contains the complete OctoAcme project management framework used to run cross-functional projects with customer-first principles, iterative delivery, clear ownership, and data-informed decisions. Use this README as the single entry point for discovering process docs and getting started with OctoAcme project practices.
+OctoAcme runs projects with a customer-first, iterative approach that moves work through five clear phases: Initiation, Planning, Execution, Release, and Retrospective. Each project begins with a lightweight validation step (a Project One-pager) to confirm the problem, stakeholders, success metrics, and high-level timeline before moving into a planning stage that produces a prioritized backlog, acceptance criteria, and a Definition of Done.
+
+Key workflows emphasize small, testable increments and clear handoffs. The team uses a project board with columns (Backlog → Ready → In Progress → In Review → QA → Done) and a disciplined pull request process that links PRs to issues and acceptance criteria, runs CI and security scans, and requires an approval before merging. Risks and dependencies are tracked in a Risk Register and escalated through defined paths (team → PM → Product Lead → Sponsor) when needed.
+
+Roles and responsibilities are explicit: Product Managers define outcomes and prioritize the backlog, Project Managers coordinate delivery and communication, Developers implement features and tests, and QA validates acceptance criteria and oversees testing. Communication cadence includes daily standups for blockers, a weekly delivery sync for progress and risk discussions, sprint-end demos/reviews, and regular stakeholder updates to maintain transparency and alignment.
+
+Quality assurance and release practices are layered to reduce risk: unit and integration tests, end-to-end smoke tests for critical flows, automated security scans in CI, and manual QA where necessary. Releases follow a checklist (staging verification, rollback plan, post-deploy verifications) and retrospectives capture learnings and convert them into prioritized action items in the backlog for continuous improvement.
 
 ## Core Principles
 - Customer-first: prioritize customer value and usability
@@ -42,4 +48,4 @@ This folder contains the complete OctoAcme project management framework used to 
 
 ---
 
-*This README was added to centralize OctoAcme's process documentation and improve discoverability and onboarding.*
+*This README was prepared to centralize OctoAcme's process documentation and improve discoverability and onboarding.*
